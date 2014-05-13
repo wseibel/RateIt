@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<queue-entries>
+  <queue>
+    <name>default</name>
+    <rate>1/s</rate>
+  </queue>
+  <queue>
+    <name>rate-queue</name>
+    <rate>500/s</rate>
+    <bucket-size>100</bucket-size>
+  </queue> 
+  <queue>
+    <name>split-queue</name>
+    <rate>500/s</rate>
+    <bucket-size>100</bucket-size>
+  </queue>
+  <queue>
+    <name>calc-tops-queue</name>
+    <rate>500/s</rate>
+    <bucket-size>100</bucket-size>
+  </queue>
+  <queue>
+    <name>fetch-tops-queue</name>
+    <rate>500/s</rate>
+    <bucket-size>100</bucket-size>
+  </queue>
+</queue-entries>
